@@ -37,7 +37,7 @@
 }
 
 .title p {
-  color: #E21818;
+  color: #3A1078;
   font-weight: 800;
 }
 
@@ -92,7 +92,7 @@
 
 .form-submit button {
   padding: 10px;
-  background-color: #E21818;
+  background-color: #3A1078;
   border: none;
   border-radius: 5px;
   color: white;
@@ -115,7 +115,7 @@
   font-size: 20px;
   margin-bottom: 10px;
   padding-bottom: 5px;
-  border-bottom: 3px solid #E21818;
+  border-bottom: 3px solid #3A1078;
 }
 
 .address p {
