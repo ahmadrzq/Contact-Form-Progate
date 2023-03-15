@@ -39,9 +39,10 @@ html,body{
     margin-bottom: 5px;
 }
 
-.form-group input,textarea{
+.form-group input, .form-group textarea{
     padding: 10px;
-    border: none;
+    border: 1px solid #ebeef2;
+    border-radius: 10px;
 }
 
 .form-submit{
