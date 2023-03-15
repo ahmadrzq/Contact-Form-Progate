@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 html,body{
@@ -14,5 +15,44 @@ html,body{
     flex: auto;
     justify-content: center;
     align-items: center;
-    height: 100%;
+}
+
+.container{
+    border-radius: 10px;
+    border: 5px solid #919499;
+    padding: 30px;
+    width: 20%;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label{
+    margin-bottom: 5px;
+}
+
+.form-group input,textarea{
+    padding: 10px;
+    border: none;
+}
+
+.form-submit{
+    text-align: center;
+}
+
+.form-submit button{
+    padding: 10px;
+    background-color: #04317a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
 }
