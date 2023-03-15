@@ -8,7 +8,13 @@
 }
 
 .contact {
-  background-color: #1d3557;
+  background: rgb(98, 90, 230);
+  background: linear-gradient(
+    90deg,
+    rgba(98, 90, 230, 1) 0%,
+    rgba(94, 190, 201, 1) 76%,
+    rgba(19, 194, 230, 1) 100%
+  );
   height: 100%;
   display: flex;
   flex: auto;
@@ -31,7 +37,7 @@
 }
 
 .title p {
-  color: #e63946;
+  color: #E21818;
   font-weight: 800;
 }
 
@@ -70,7 +76,6 @@
 .form-group textarea {
   padding: 15px 20px;
   border: none;
-  background: #a8dadc;
   border-radius: 5px;
   font-size: 18px;
   font-weight: bold;
@@ -87,10 +92,10 @@
 
 .form-submit button {
   padding: 10px;
-  background-color: #a8dadc;
+  background-color: #E21818;
   border: none;
   border-radius: 5px;
-  color: #1d3557;
+  color: white;
   cursor: pointer;
   font-size: 20px;
   font-weight: 800;
@@ -98,7 +103,7 @@
 }
 
 .form-submit button:hover {
-    background: #457b9d;
+  background: #457b9d;
 }
 
 .address {
@@ -110,7 +115,7 @@
   font-size: 20px;
   margin-bottom: 10px;
   padding-bottom: 5px;
-  border-bottom: 3px solid #e63946;
+  border-bottom: 3px solid #E21818;
 }
 
 .address p {
@@ -122,9 +127,9 @@
 }
 
 .icon svg {
-    transition: 0.2s;
-    width: 5%;
-    fill: #a8dadc;
+  transition: 0.2s;
+  width: 5%;
+  fill: #a8dadc;
 }
 
 .icon svg:hover {
@@ -171,17 +176,11 @@
   .form-group input,
   .form-group textarea {
     padding: 10px 10px;
-    border: none;
-    background: #a8dadc;
-    border-radius: 5px;
     font-size: 16px;
   }
 
   .form-submit button {
     padding: 10px;
-    border-radius: 5px;
-    color: #1d3557;
-    cursor: pointer;
     font-size: 16px;
   }
 
